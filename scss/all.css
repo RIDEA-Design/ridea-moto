@@ -10889,6 +10889,13 @@ fieldset:disabled .btn {
     min-height: 310px;
     margin-bottom: 20px;
   }
+  .banner .slogan {
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    margin-top: 50px;
+    padding: 0 10px;
+  }
 }
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome

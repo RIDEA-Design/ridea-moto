@@ -19,6 +19,7 @@
     min-height: 723px;
   }
 }
+
 @media (max-width: 1200px) {
   .banner {
     background: url("../images/banner_bg_1200.jpg");
@@ -26,6 +27,7 @@
     margin-bottom: 60px;
   }
 }
+
 @media (max-width: 1000px) {
   .banner {
     background: url("../images/banner_bg_1000.jpg");
@@ -33,51 +35,69 @@
     margin-bottom: 50px;
   }
 }
+
 @media (max-width: 992px) {
   .video-992 {
     margin-bottom: 20px;
   }
 }
+
 @media (max-width: 800px) {
   .banner {
     background: url("../images/banner_bg_800.jpg");
     min-height: 413px;
     margin-bottom: 40px;
+
     .slogan {
       h1 {
         font-size: calc(3em * 0.95);
       }
+
       h3 {
         font-size: calc(2em * 0.95);
       }
+
       p {
         font-size: calc(1.25em * 0.95);
       }
     }
   }
 }
+
 @media (max-width: 600px) {
   .banner {
     background: url("../images/banner_bg_600.jpg");
     min-height: 310px;
     margin-bottom: 30px;
+
     .slogan {
       h1 {
         font-size: calc(3em * 0.85);
       }
+
       h3 {
         font-size: calc(2em * 0.85);
       }
+
       p {
         font-size: calc(1.25em * 0.85);
       }
     }
   }
 }
+
 @media (max-width: 400px) {
   .banner {
     background: url("../images/banner_bg_400.jpg");
     min-height: 310px;
     margin-bottom: 20px;
+
+    .slogan {
+      position: absolute;
+      z-index: 2;
+      color: #fff;
+      margin-top: 50px;
+      padding: 0 10px;
+    }
   }
 }
