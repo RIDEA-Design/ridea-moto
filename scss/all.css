@@ -222,7 +222,7 @@ address {
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 dl,
@@ -10690,7 +10690,7 @@ fieldset:disabled .btn {
 }
 .contact-us ul li p {
   display: inline;
-  margin: 5px;
+  margin-left: 5px;
 }
 
 #gotop {
