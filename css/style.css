@@ -1,0 +1,54 @@
+.container-fluid img {
+  width: 180px;
+}
+.container-fluid .navBg {
+  background-color: #fff;
+}
+.container-fluid .nav-link {
+  padding-left: 10px;
+}
+.container-fluid .nav-link:hover {
+  background-color: rgb(5, 113, 143);
+}
+
+.banner {
+  background-image: url("../images/banner_bg_02.jpg");
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  max-width: 1920px;
+  max-height: 1080px;
+  margin-bottom: 64px;
+}
+.banner .container {
+  height: 100%;
+}
+.banner .container .row {
+  height: 100%;
+}
+.banner .slogan {
+  color: #eee;
+  padding: 0 10px;
+}
+.banner .slogan h1 {
+  font-size: 3em;
+}
+.banner .slogan h3 {
+  font-size: 2em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+.banner .slogan p {
+  font-size: 1.25em;
+  line-height: 1.5;
+}

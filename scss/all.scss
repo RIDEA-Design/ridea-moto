@@ -1,0 +1,23 @@
+// * {
+//   outline: 1px solid red;
+// }
+
+// 解決錨點連結導航時，導覽列遮住了標題
+// :root {
+//   scroll-padding-top: 5rem;
+// }
+
+@import "reset";
+@import "bootstrap";
+@import "style";
+@import "home";
+@import "media";
+@import "font-awesome";
+
+*,
+*:after,
+*:before,
+a:link {
+  box-sizing: border-box;
+  text-decoration: none;
+}

@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container-fluid img {
+  width: 180px;
+}
+.container-fluid .navTop {
+  position: fixed;
+  position: relative;
+}
+.container-fluid .navBg {
+  background-color: #fff;
+}
+.container-fluid .nav-link {
+  padding-left: 10px;
+}
+.container-fluid .nav-link:hover {
+  background-color: rgb(5, 113, 143);
+}
+
+.nav-item .icon-fb {
+  width: 32px;
+}
+
+.banner {
+  background: url("../images/banner_bg_02.jpg");
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  margin-bottom: 65px;
+}
+.banner .slogan {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  padding: 0 10px;
+}
+.banner .slogan h1 {
+  font-size: 4em;
+}
+.banner .slogan h3 {
+  font-size: 3em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+.banner .slogan p {
+  font-size: 1.75em;
+  line-height: 1.5;
+  padding-top: 7px;
+}
+
+@media (max-width: 1400px) {
+  .banner {
+    background: url("../images/banner_bg_1400.jpg");
+    min-height: 723px;
+  }
+}
+@media (max-width: 1200px) {
+  .banner {
+    background: url("../images/banner_bg_1200.jpg");
+    min-height: 620px;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 1000px) {
+  .banner {
+    background: url("../images/banner_bg_1000.jpg");
+    min-height: 516px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .banner {
+    background: url("../images/banner_bg_800.jpg");
+    min-height: 413px;
+    margin-bottom: 40px;
+  }
+  .banner .slogan h1 {
+    font-size: 2.85em;
+  }
+  .banner .slogan h3 {
+    font-size: 1.9em;
+  }
+  .banner .slogan p {
+    font-size: 1.1875em;
+  }
+}
+@media (max-width: 600px) {
+  .banner {
+    background: url("../images/banner_bg_600.jpg");
+    min-height: 310px;
+    margin-bottom: 30px;
+  }
+  .banner .slogan h1 {
+    font-size: 2.55em;
+  }
+  .banner .slogan h3 {
+    font-size: 1.7em;
+  }
+  .banner .slogan p {
+    font-size: 1.0625em;
+  }
+}
+@media (max-width: 400px) {
+  .banner {
+    background: url("../images/banner_bg_400.jpg");
+    min-height: 310px;
+    margin-bottom: 20px;
+  }
+}
