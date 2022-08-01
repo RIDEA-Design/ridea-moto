@@ -4348,7 +4348,7 @@ fieldset:disabled .btn {
 
 .navbar-nav .nav-link {
   padding-right: 0;
-  padding-left: 0;
+  padding-left: 5px;
 }
 
 .navbar-nav .dropdown-menu {
@@ -10745,6 +10745,7 @@ fieldset:disabled .btn {
   z-index: 2;
   color: #fff;
   padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .banner .slogan h1 {
   font-size: 4em;
@@ -10782,7 +10783,7 @@ fieldset:disabled .btn {
 
 .overlay {
   position: absolute;
-  height: 70px;
+  height: 60px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -10790,11 +10791,6 @@ fieldset:disabled .btn {
   transition: 0.5s ease;
   background-color: #000;
   margin: 0 0.75rem;
-}
-
-#overlay-cover {
-  transition: width 2s;
-  transition-timing-function: ease;
 }
 
 .newParts:hover .overlay {
@@ -10816,7 +10812,6 @@ fieldset:disabled .btn {
   display: block;
   font-size: 0.8em;
   color: red;
-  margin-top: 5px;
 }
 
 .contact-us span {
@@ -10840,7 +10835,10 @@ fieldset:disabled .btn {
 }
 .footer a:hover {
   color: rgb(229, 255, 0);
-  font-weight: 700;
+}
+
+.p-title {
+  font-size: 1.25rem;
 }
 
 @media (max-width: 1400px) {
@@ -10848,12 +10846,19 @@ fieldset:disabled .btn {
     background: url("../images/banner_bg_1400.jpg");
     min-height: 723px;
   }
+  .menu-w {
+    width: 24%;
+  }
 }
 @media (max-width: 1200px) {
   .banner {
     background: url("../images/banner_bg_1200.jpg");
     min-height: 620px;
     margin-bottom: 60px;
+  }
+  .p-list {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 1000px) {
@@ -10882,6 +10887,12 @@ fieldset:disabled .btn {
   }
   .banner .slogan p {
     font-size: 1.1875em;
+  }
+}
+@media (max-width: 767px) {
+  .card {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 600px) {
@@ -13659,6 +13670,78 @@ fieldset:disabled .btn {
   margin: 0;
   overflow: visible;
   clip: auto;
+}
+
+.p-items-banner {
+  background: url("../images/banner_p-bg_handling.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  margin-top: 50px;
+  margin-bottom: 65px;
+}
+.p-items-banner .slogan {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.p-items-banner .slogan h3 {
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+.p-items-banner .slogan p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding-top: 7px;
+}
+
+.contentTitle {
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.p-title {
+  font-weight: 700;
+}
+
+#sideMenu .menu-fix {
+  position: relative;
+  transform: translate(0, 0);
+  transform: translate3d(0, 0, 0);
+  will-change: position, transform;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.card .card-body {
+  font-weight: 700;
+}
+.card .card-body .card-p-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+.card .card-body .card-p-text {
+  margin-bottom: 0.5rem;
+}
+.card .card-body span {
+  font-size: 0.85rem;
+  margin-left: 5px;
+  color: rgb(221, 0, 0);
 }
 
 *,

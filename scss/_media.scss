@@ -13,10 +13,16 @@
 //     }
 //   }
 // }
+.p-title {
+  font-size: 1.25rem;
+}
 @media (max-width: 1400px) {
   .banner {
     background: url("../images/banner_bg_1400.jpg");
     min-height: 723px;
+  }
+  .menu-w{
+    width: 24%;
   }
 }
 
@@ -25,6 +31,10 @@
     background: url("../images/banner_bg_1200.jpg");
     min-height: 620px;
     margin-bottom: 60px;
+  }
+  .p-list{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -63,7 +73,12 @@
     }
   }
 }
-
+@media (max-width: 767px) {
+  .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
 @media (max-width: 600px) {
   .banner {
     background: url("../images/banner_bg_600.jpg");
