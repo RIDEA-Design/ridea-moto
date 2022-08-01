@@ -5,9 +5,9 @@ $(function () {
     return false;
   });
 
-  /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+  /* 偵測卷軸滑動時，往下滑超過50px就讓GoTop按鈕出現 */
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 200) {
+    if ($(this).scrollTop() > 50) {
       $("#gotop").fadeIn();
     } else {
       $("#gotop").fadeOut();
